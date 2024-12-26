@@ -1,0 +1,93 @@
+/* General Body Style */
+body {
+    font-family: 'Calibri', 'Arial', sans-serif; /* Professional fonts */
+    font-size: 14px;
+    line-height: 1.5;
+    color: #222; /* Dark gray for readability */
+    background-color: #f8f9fa; /* Very light gray background for a subtle tone */
+    margin: 0;
+    padding: 30px;
+}
+
+/* Main Header (Name) */
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000; /* Black for emphasis */
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ccc; /* Subtle separator */
+    padding-bottom: 5px;
+}
+
+/* Section Titles (Experience, Skills, Education) */
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333; /* Medium dark gray for contrast */
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd; /* Separator line */
+    padding-bottom: 5px;
+    text-transform: uppercase; /* Professional styling */
+}
+
+/* Subsection Titles (Job Roles, Companies) */
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555; /* Slightly lighter gray */
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+/* General Paragraphs */
+p {
+    margin: 5px 0;
+    color: #444; /* Medium gray for readability */
+    font-size: 14px;
+}
+
+/* Contact Info Styling */
+.contact {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #ffffff; /* White box for clarity */
+    border-radius: 8px; /* Rounded corners for a polished look */
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.contact p {
+    font-size: 14px;
+    margin: 2px 0;
+}
+
+/* List Styling */
+ul {
+    margin: 10px 0;
+    padding: 0 20px;
+    list-style-type: disc; /* Standard bullet points */
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Sections (Experience, Skills, Education) */
+.experience, .skills, .education {
+    border: 1px solid #ddd;
+    padding: 15px;
+    background: #ffffff; /* Clean white sections */
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for separation */
+}
+
+/* Footer Styling */
+footer {
+    font-size: 12px;
+    text-align: center;
+    color: #777; /* Light gray footer text */
+    margin-top: 20px;
+}
